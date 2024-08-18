@@ -17,10 +17,10 @@ let buttoncounter = document.getElementById("buttoncounter");
 
 buttoncounter.addEventListener("click", function () {
   
-  let numberwaffles = document.querySelector("#numberwaffles");
+  let numberwaffles = document.getElementById("numberwaffles");
   let result = Number(numberwaffles.innerHTML) + 1;
 document.getElementById("feedinghimwaffles").play();
-  numberwaffles.innerText = result;
+  numberwaffles.innerHTML = result;
 });
 
 //Every time our button is clicked, this code above should work its magic.
