@@ -6,7 +6,8 @@
 
 let buttoncounter = document.getElementById("buttoncounter");
 
-//Above, I grab the button counter's ID from the html to identify just which button I want to use on the page. 
+//Above, I grab the button counter's ID from the html to identify just which button I want to use on the page.
+//let is just a newer term for var; var is just the older term.
 
 //let X = allows me to have the string called from the HTML document under a different name ('X')
 //but because I like to keep it simple I leave the name buttoncounter. Otherwise I'd be confused eventually.
